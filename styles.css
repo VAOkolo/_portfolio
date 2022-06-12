@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0; 
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    background-color: #F7F7F7;
+    color: black;
+    height: 50px;
+    overflow: auto;
+    box-shadow: 5px 10px 8px #888888;
+    position: sticky;
+    top: 0; 
+}
+.nav-container{
+    float: right;
+    margin-right: 15%;
+}
+.nav-title{
+    float: left;
+    margin: 10px;
+    margin-left: 15%;
+}
+.nav-item{
+    display: inline-block;
+    margin: 15px 10px 10px;
+}
+
+.profile{
+    border-radius: 50%;
+}
+
+.network-icon{
+    display: flex;
+    justify-content: space-around;
+}
+.network-icon > li{
+    font-size:40px;
+    padding: 1px;
+    list-style-type: none;
+}
+
+.biography-section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.biography-section{
+    display: flex;
+    /* height: 700px; */
+    background-color: white;
+}
+.biography-div-1{
+    margin-left:15%;
+    text-align: center;
+}
+.biography-div-1 > h2{
+    font-size: 30px;
+    padding: 1px;
+}
+.biography-div-1 > h3{
+    font-size: 20px;
+    padding: 0px;
+    padding-bottom: 10px;
+    color: gray;
+}
+.biography-div-2{
+    margin-left: 30px;
+    margin-right: 15%;
+}
+.biography-div-2 > h1{
+    font-size:  40px;
+    margin-bottom: 10px;
+}
+.biography-div-2 > p, li{
+    font-size:  20px;
+    margin-bottom: 10px;
+}
+.biography-div-2 > h2{
+    font-size:  30px;
+}
+.biography-list-headers{
+    font-size: 25px;
+    margin: 5px;
+}
+.biography-div-2-lists{
+    display: flex;
+    column-gap: 25px;
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+.biography-div-2-item1{
+    flex: 1;
+    flex-grow: 1;
+}
+.biography-div-2-item2{
+    flex: 1;
+    flex-grow: 1;
+}
+
+.skills-container{
+    /* height: 700px; */
+    background-color: #F7F7F7;
+}
+.skills-table{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 600px;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+.skills-table > div{
+    flex: 1 1 30%;
+    height: 50%;
+}
+.skills-table-header{
+    text-align: center;
+    font-size: 40px;
+    padding: 40px;
+}
+.iconify{
+    height: 100px;
+    width: 100px;
+}
+
+.footer-container{
+    background-color: #F7F7F7;
+}
+.site-footer{
+    text-align: center;
+    margin-right: 15%;
+    margin-left: 15%;
+    background-color: #F7F7F7;
+    color: black;
+    box-shadow: 0 50vh 0 50vh #F7F7F7;
+}
